@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Asegura que los inputs y botones hereden la fuente Jost por defecto */
+input, button, select, textarea {
+  font-family: inherit;
+}
+
+body {
+  font-family: 'Jost', sans-serif;
+  background: #f5f0e8;
+  color: #2c2416;
+  min-height: 100vh;
+}
